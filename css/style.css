@@ -1,0 +1,21 @@
+@import url(style.css);
+
+
+/* Faz a página ocupar toda a altura da tela */
+html, body{
+    height: 100%;
+    margin: 0%;
+}
+
+
+/* Organiza a page em coluna  */
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+
+/* Conteúdo principal fica maior */
+main{
+    flex: 1;
+}
